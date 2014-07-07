@@ -1,6 +1,9 @@
 Changes for the CPAN Testers Preferences website
 ================================================
 
+0.16	2014-07-07
+        - abstracted out Labyrinth-Plugin-CPAN.
+
 0.15	2014-07-05
         - renamed to CPAN-Testers-WWW-Preferences.
         - documentation fixes.

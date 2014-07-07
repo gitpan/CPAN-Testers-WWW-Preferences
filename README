@@ -1,5 +1,5 @@
-CPAN-Testers-WWW-Prefs
-======================
+CPAN-Testers-WWW-Preferences
+============================
 
 This distribution contains the files used to run and manage the CPAN Testers 
 Preferences website.
@@ -31,7 +31,7 @@ installed as
 In the second instance, download the latest tarball and copy the contents of
 the 'vhost' directory into the directory you plan to use to provide access to
 the Admin. Create an appropriate database in MySQL and load the contents of the
-SQL file, ./cgi-bin/db/cpanprefs-base.sql. Note that this only provides the 
+SQL file, ./cgi-bin/db/cpanprefs-master.sql. Note that this only provides the 
 base tables and contents.
 
 You then need to update the configuration file, ./cgi-bin/config/settings.ini,

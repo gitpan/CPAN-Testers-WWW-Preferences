@@ -18,6 +18,7 @@ WriteMakefile(
         'Labyrinth'                             => '5.20',
         'Labyrinth::DIUtils::ImageMagick'       => '5.04',
         'Labyrinth::Plugin::Core'               => '5.14',
+        'Labyrinth::Plugin::CPAN'               => '3.50',
 
         'Class::Accessor::Fast'                 => 0,
         'Data::Dumper'                          => 0,

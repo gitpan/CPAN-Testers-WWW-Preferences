@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                CPAN-Testers-WWW-Preferences
-version:             0.15
+version:             0.16
 abstract:            The CPAN Testers Preferences website
 author:
   - Barbie <barbie@cpan.org>
@@ -14,6 +14,7 @@ requires:
   Labyrinth:                          5.20
   Labyrinth::DIUtils::ImageMagick:    5.04
   Labyrinth::Plugin::Core:            5.14
+  Labyrinth::Plugin::CPAN:            3.50
   Class::Accessor::Fast:              0
   Data::Dumper:                       0
   Digest::SHA:                        0
@@ -34,13 +35,10 @@ build_requires:
 provides:
   CPAN::Testers::WWW::Preferences:
     file:     lib/CPAN/Testers/WWW/Preferences.pm
-    version:  0.15
-  Labyrinth::Plugin::CPAN:
-    file:     lib/Labyrinth/Plugin/CPAN.pm
-    version:  0.15
+    version:  0.16
   Labyrinth::Plugin::CPAN::Preferences:
     file:     lib/Labyrinth/Plugin/CPAN/Preferences.pm
-    version:  0.15
+    version:  0.16
 
 no_index:
   directory:

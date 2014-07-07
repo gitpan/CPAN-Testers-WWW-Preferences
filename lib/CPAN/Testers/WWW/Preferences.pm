@@ -3,7 +3,7 @@ package CPAN::Testers::WWW::Preferences;
 use warnings;
 use strict;
 
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 1;
 
