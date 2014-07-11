@@ -1,6 +1,10 @@
 Changes for the CPAN Testers Preferences website
 ================================================
 
+0.17	2014-07-11
+        - removed obsolete files.
+        - remove NONE from templates.
+
 0.16	2014-07-07
         - abstracted out Labyrinth-Plugin-CPAN.
 

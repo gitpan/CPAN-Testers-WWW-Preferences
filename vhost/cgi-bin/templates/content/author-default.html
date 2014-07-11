@@ -101,10 +101,10 @@ server loads are lower.</span></a></td>
 	</td>
 	</tr>
 <tr><td>Grade <a href="#" class="tooltip">?<span>The "Grade" filter allows you to decide whether you wish to receive no reports 
-at all, or only those of a particular grade. Note that by selecting "NONE", all other values will be removed. The internal default
+at all, or only those of a particular grade. Note that by not selecting any grades, all reports will be filtered out. The internal default
 is only allow FAIL reports.</span></a></td>
 	<td>[% IF data.grade; data.grade; ELSE %]not set[% END %]</td>
-	<td><input type="checkbox" name="grade" value="NONE"    [% IF data.grade == 'NONE'        %]checked="checked"[% END %] /> NONE<br />
+	<td>
 		<input type="checkbox" name="grade" value="PASS"    [% IF data.grade.match('PASS')    %]checked="checked"[% END %] /> PASS<br />
 		<input type="checkbox" name="grade" value="FAIL"    [% IF data.grade.match('FAIL')    %]checked="checked"[% END %] /> FAIL<br />
 		<input type="checkbox" name="grade" value="NA"      [% IF data.grade.match('NA')      %]checked="checked"[% END %] /> NA<br />
